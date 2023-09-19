@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  position: relative;
+  font-weight: normal;
+}
+
+.bgOne, .bgTwo, .bgThree {
+  position: absolute;
+  z-index: -1;
+}
+
+.hide {
+  display: none;
+}
+
+nav {
+  padding: 4rem 0 0 7.2rem;
+  display: flex;
+  align-items: center;
+}
+
+a, img {
+  color: white;
+  gap: 3.2rem;
+  text-decoration: none;
+  padding: 0 3.2rem 0 0;
+}
+
+a {
+  font-size: 2.1rem;
+}
+
+a:hover {
+  font-size: 2.4rem;
+  transition: 2ms;
+  font-weight: bold;
+}
+
+#home {
+  width: 39.9rem;
+  margin: 20rem auto;
+  width: 50%;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+#home button {
+  font-size: 1.4rem;
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 0.5rem;
+  padding: 1.2rem 3.2rem;
+  
+  background: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#home button:hover{
+  background: white;
+  color: #02799d;
+  font-size: 1.6rem;
+}
+
+#universe,
+#explore {
+  width: 64.8rem;
+  margin: 6.3rem 0 0 10.2rem;
+}
+
+#universe h1,
+#explore h1 {
+  font-size: 4.8rem;
+  margin-bottom: 1.6rem;
+  line-height: 125%;
+}
+
+#universe p,
+#explore p {
+  font-size: 1.8rem;
+  line-height: 160%;
+}
+
+#notFound {
+  text-align: center;
+  margin: 6.0rem auto;
+}
+
+#notFound img {
+  width: 40rem;
+}
